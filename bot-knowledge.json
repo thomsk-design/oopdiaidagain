@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "scope": "Public information from Oops I AI’d Again. No private conversations, client records or inbox content.",
   "sources": [
     {
@@ -82,6 +82,29 @@
         "Prepared materials include ranked prospects, sourced public people research, verified identification photos where available, personal email drafts, print-ready letters, reply notes, booth briefings and follow-up drafts.",
         "The client checks research, chooses targets, approves and sends messages, and has conversations. No automatic outreach or guaranteed attendance, meetings, leads, revenue or conversion is promised.",
         "The process can be adapted to conferences, trade shows, account research and sales-team follow-up. Full event campaigns are scoped and quoted separately; $999 CAD is a general AI implementation starting price, not a whole conference package price."
+      ]
+    },
+    {
+      "id": "stuff",
+      "title": "Stuff I Made: case studies and portfolio",
+      "url": "/stuff.html",
+      "facts": [
+        "The Stuff I Made page lists live work and portfolio concepts, each labelled. Live means the site can be opened today. Concept or prototype means it is not a live site and not a finished client project.",
+        "Live work listed includes Whitetail Films, Next to Kin (nexttokin.ca, kintags.com, kintagpartners.com), Indigo KinTag, Ketchup Sandwich AI tools, Barker’s Barbershop website design, KinCards, The Adventures of Saylor, The Frozen Inn and Sorry, Grapes.",
+        "Portfolio concepts and prototypes include a Bresaylor Heritage Museum redesign idea (unofficial), a Cell Style demo site, Let’s Pucking Go, Homegrain, Distilled Democracy and Marquee Studio.",
+        "Previews on the page are drawn in each site’s own colours. They are not screenshots."
+      ]
+    },
+    {
+      "id": "media-hub",
+      "title": "Media hub case study",
+      "url": "/media-hub.html",
+      "facts": [
+        "Thom built a private production desk for a Regina team producing spoken-word recordings. The client is not named.",
+        "It includes a media library that uploads to a shared Google Drive folder, a catalogue with IDs and stages, a script library, a teleprompter that follows the reader’s words and records takes, a talent portal, a schedule and a roster.",
+        "It went from a one-page pitch on October 21, 2026 to a shared team workspace on November 10, 2026, across 38 deployments.",
+        "Automatic mastering and transcript search are planned and not connected. The vocal suite is in preview. There is no public link to the workspace.",
+        "Thom set requirements and checked results; Claude Code wrote the implementation."
       ]
     }
   ]
