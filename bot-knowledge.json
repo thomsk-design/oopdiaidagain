@@ -1,111 +1,124 @@
 {
-  "updated": "2026-11-16",
-  "scope": "Public information from Oops I AI’d Again. No private conversations, client records or inbox content.",
-  "sources": [
-    {
-      "id": "about",
-      "title": "About Thom",
-      "url": "/#story",
-      "facts": [
-        "Thom Hamilton is a business owner, filmmaker, maker and founder of Next to Kin, based in Regina, Saskatchewan.",
-        "He calls his role AI Alchemist. He did not set out to become an AI expert and does not claim to be one.",
-        "He directs, connects, reviews and refines work with multiple AI tools. He makes decisions, checks results, does physical making and fixes mistakes."
-      ]
-    },
-    {
-      "id": "work",
-      "title": "Actual work",
-      "url": "/work.html#made",
-      "facts": [
-        "Public examples include physical programmed NFC KinTags, AI-assisted artwork reviewed for production, prepared outreach letters and a working process atlas.",
-        "The displayed outreach letter is prepared work, not proof of a send, partnership or endorsement.",
-        "Some work is built or used; some is acceptance-tested, paused or a prototype. These labels do not guarantee current reliability."
-      ]
-    },
-    {
-      "id": "whitetail",
-      "title": "Whitetail Films example",
-      "url": "/whitetail.html#whitetail",
-      "facts": [
-        "Thom also runs Whitetail Films. He rebuilt around the functions he actually used after subscriptions gained unneeded functions and prices grew faster than bookings.",
-        "The connected build brings together the public website, project dashboard, contracts, planning portal and photo/film delivery. It covers roles previously served by Squarespace, HoneyBook, Pic-Time and Vidflow.",
-        "Thom set requirements and reviewed the result. Claude Code implemented it with a Codex security review.",
-        "Payment tracking is separate from payment processing. Adoption varies; no verified savings figure or complete migration is claimed.",
-        "Screenshots include a saved dashboard, a real portal rendered with labelled sample data, and a delivery-verification collection."
-      ]
-    },
-    {
-      "id": "approach",
-      "title": "Start with a problem",
-      "url": "/#stuck",
-      "facts": [
-        "The approach starts with a recurring frustration rather than choosing an AI tool first: repeated typing, missed follow-ups, scattered files, repeated paperwork or waiting on handoffs.",
-        "Useful first steps gather checked information once, carry it into the next step, and keep human decisions where judgment matters.",
-        "AI implementation starts at $999 CAD for a clearly defined problem. Scope, inclusions and price are agreed before work starts. Larger builds are quoted separately. Any ongoing software, hosting or support costs are explained separately. This is a starting price, not a promise that every project costs $999. No hourly rate, standard delivery deadline or guarantee is published."
-      ]
-    },
-    {
-      "id": "tools",
-      "title": "Try a tool",
-      "url": "/#website-check",
-      "facts": [
-        "The website check reads up to four public HTML pages and gives ten qualitative findings with practical next steps. It is an AI-generated first pass, not a performance grade, sales prediction or complete audit.",
-        "It does not test page speed, accessibility, search rankings, video playback or form delivery. Text can be pasted if automated reading fails.",
-        "The fresh-angle tool at /#talk takes a recurring business headache and offers an AI-generated angle and a small experiment. Its answer appears on the page. Nothing is emailed to Thom unless the visitor chooses to send it."
-      ]
-    },
-    {
-      "id": "call",
-      "title": "Book a call",
-      "url": "https://calendar.app.google/zX1U5LTyb2GVK5Aa7",
-      "facts": [
-        "Visitors can book a 30-minute Google Meet with Thom through his Google booking page. Meeting details are added after booking.",
-        "The assistant cannot see live availability, book a time, send an email, promise a price or make commitments on Thom’s behalf. The visitor completes booking on Google.",
-        "Public email contact is support@nexttokin.ca."
-      ]
-    },
-    {
-      "id": "pricing",
-      "title": "AI implementation pricing",
-      "url": "/#pricing",
-      "facts": [
-        "AI implementation starting at $999 CAD. Scope and price agreed before work begins; larger builds quoted separately. Ongoing software, hosting or support costs explained separately."
-      ]
-    },
-    {
-      "id": "conference",
-      "title": "Conference and sales outreach example",
-      "url": "/conference.html#conference",
-      "facts": [
-        "Thom used a research-led preparation and outreach process for his own Next to Kin / KinTag campaign at ACCA 2026 in Calgary, October 7–9.",
-        "The supplied campaign summary reports 168 event listings merged into 121 organisations, 20 letter variants for the top 10, a 12-page meeting briefing, and 11 personal replies, separately from auto-replies and bounces. These are self-reported campaign records, not independently audited sales results.",
-        "Prepared materials include ranked prospects, sourced public people research, verified identification photos where available, personal email drafts, print-ready letters, reply notes, booth briefings and follow-up drafts.",
-        "The client checks research, chooses targets, approves and sends messages, and has conversations. No automatic outreach or guaranteed attendance, meetings, leads, revenue or conversion is promised.",
-        "The process can be adapted to conferences, trade shows, account research and sales-team follow-up. Full event campaigns are scoped and quoted separately; $999 CAD is a general AI implementation starting price, not a whole conference package price."
-      ]
-    },
-    {
-      "id": "stuff",
-      "title": "Stuff I Made: case studies and portfolio",
-      "url": "/stuff.html",
-      "facts": [
-        "The Stuff I Made page lists live work and portfolio concepts, each labelled. Live means the site can be opened today. Concept or prototype means it is not a live site and not a finished client project.",
-        "Live work listed includes Whitetail Films, Next to Kin (nexttokin.ca, kintags.com, kintagpartners.com), Indigo KinTag, Ketchup Sandwich AI tools, Barker’s Barbershop website design, KinCards, The Adventures of Saylor, The Frozen Inn and Sorry, Grapes.",
-        "Portfolio concepts and prototypes include a Bresaylor Heritage Museum redesign idea (unofficial), a Cell Style demo site, Let’s Pucking Go, Homegrain, Distilled Democracy and Marquee Studio.",
-        "Previews on the page are drawn in each site’s own colours. They are not screenshots."
-      ]
-    },
-    {
-      "id": "media-hub",
-      "title": "Media hub case study",
-      "url": "/media-hub.html",
-      "facts": [
-        "Thom built a private production desk for a Regina team producing spoken-word recordings. The client is not named.",
-        "It includes a media library that uploads to a shared Google Drive folder, a catalogue with IDs and stages, a script library, a teleprompter that follows the reader’s words and records takes, a talent portal, a schedule and a roster.",
-        "It went from a one-page pitch on October 21, 2026 to a shared team workspace on November 10, 2026, across 38 deployments.",
-        "Automatic mastering and transcript search are planned and not connected. The vocal suite is in preview. There is no public link to the workspace.",
-        "Thom set requirements and checked results; Claude Code wrote the implementation."
-      ]
-    }
-  ]
+ "updated": "2026-11-26",
+ "scope": "Public information from Oops I AI’d Again. No private conversations, client records or inbox content.",
+ "sources": [
+  {
+   "id": "about",
+   "title": "About Thom",
+   "url": "/#story",
+   "facts": [
+    "Thom Hamilton is a business owner, filmmaker, maker and founder of Next to Kin, based in Regina, Saskatchewan.",
+    "He calls his role AI Alchemist. He did not set out to become an AI expert and does not claim to be one.",
+    "He directs, connects, reviews and refines work with multiple AI tools. He makes decisions, checks results, does physical making and fixes mistakes."
+   ]
+  },
+  {
+   "id": "no-fare",
+   "title": "No Fare! case study",
+   "url": "/no-fare.html",
+   "facts": [
+    "When the City of Regina locked out its transit workers in November 2026, Thom built No Fare! (nofare.space), a free neighbour-to-neighbour carpool site, on the Saturday night before buses stopped.",
+    "Riders and drivers are matched by the bus stop they would normally use, where they need to go and roughly when. Pick-ups are at nearby corners; home addresses and emails are never shown publicly. It has a safety guide, a report button, email confirmation, take-down links and posts that expire. Rides are free only.",
+    "As of November 26, 2026 the site had 126 seats offered by 51 drivers and 138 ride requests across all 7 areas of the city (confirmed posts still up). It does not track whether rides happened.",
+    "It was covered by 980 CJME, The Canadian Press (published by The Globe and Mail and Yahoo News Canada), SaskToday and 620 CKRM. Coverage is reporting, not an endorsement.",
+    "The lockout ended after one day with a tentative deal, and buses returned the next afternoon.",
+    "Thom set the requirements and the privacy rules and tested the result; Claude wrote the code."
+   ]
+  },
+  {
+   "id": "work",
+   "title": "Actual work",
+   "url": "/work.html#made",
+   "facts": [
+    "Public examples include physical programmed NFC KinTags, AI-assisted artwork reviewed for production, prepared outreach letters and a working process atlas.",
+    "The displayed outreach letter is prepared work, not proof of a send, partnership or endorsement.",
+    "Some work is built or used; some is acceptance-tested, paused or a prototype. These labels do not guarantee current reliability."
+   ]
+  },
+  {
+   "id": "whitetail",
+   "title": "Whitetail Films example",
+   "url": "/whitetail.html#whitetail",
+   "facts": [
+    "Thom also runs Whitetail Films. He rebuilt around the functions he actually used after subscriptions gained unneeded functions and prices grew faster than bookings.",
+    "The connected build brings together the public website, project dashboard, contracts, planning portal and photo/film delivery. It covers roles previously served by Squarespace, HoneyBook, Pic-Time and Vidflow.",
+    "Thom set requirements and reviewed the result. Claude Code implemented it with a Codex security review.",
+    "Payment tracking is separate from payment processing. Adoption varies; no verified savings figure or complete migration is claimed.",
+    "Screenshots include a saved dashboard, a real portal rendered with labelled sample data, and a delivery-verification collection."
+   ]
+  },
+  {
+   "id": "approach",
+   "title": "Start with a problem",
+   "url": "/#stuck",
+   "facts": [
+    "The approach starts with a recurring frustration rather than choosing an AI tool first: repeated typing, missed follow-ups, scattered files, repeated paperwork or waiting on handoffs.",
+    "Useful first steps gather checked information once, carry it into the next step, and keep human decisions where judgment matters.",
+    "AI implementation starts at $999 CAD for a clearly defined problem. Scope, inclusions and price are agreed before work starts. Larger builds are quoted separately. Any ongoing software, hosting or support costs are explained separately. This is a starting price, not a promise that every project costs $999. No hourly rate, standard delivery deadline or guarantee is published."
+   ]
+  },
+  {
+   "id": "tools",
+   "title": "Try a tool",
+   "url": "/#website-check",
+   "facts": [
+    "The website check reads up to four public HTML pages and gives ten qualitative findings with practical next steps. It is an AI-generated first pass, not a performance grade, sales prediction or complete audit.",
+    "It does not test page speed, accessibility, search rankings, video playback or form delivery. Text can be pasted if automated reading fails.",
+    "The fresh-angle tool at /#talk takes a recurring business headache and offers an AI-generated angle and a small experiment. Its answer appears on the page. Nothing is emailed to Thom unless the visitor chooses to send it."
+   ]
+  },
+  {
+   "id": "call",
+   "title": "Book a call",
+   "url": "https://calendar.app.google/zX1U5LTyb2GVK5Aa7",
+   "facts": [
+    "Visitors can book a 30-minute Google Meet with Thom through his Google booking page. Meeting details are added after booking.",
+    "The assistant cannot see live availability, book a time, send an email, promise a price or make commitments on Thom’s behalf. The visitor completes booking on Google.",
+    "Public email contact is support@nexttokin.ca."
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "AI implementation pricing",
+   "url": "/#pricing",
+   "facts": [
+    "AI implementation starting at $999 CAD. Scope and price agreed before work begins; larger builds quoted separately. Ongoing software, hosting or support costs explained separately."
+   ]
+  },
+  {
+   "id": "conference",
+   "title": "Conference and sales outreach example",
+   "url": "/conference.html#conference",
+   "facts": [
+    "Thom used a research-led preparation and outreach process for his own Next to Kin / KinTag campaign at ACCA 2026 in Calgary, October 7–9.",
+    "The supplied campaign summary reports 168 event listings merged into 121 organisations, 20 letter variants for the top 10, a 12-page meeting briefing, and 11 personal replies, separately from auto-replies and bounces. These are self-reported campaign records, not independently audited sales results.",
+    "Prepared materials include ranked prospects, sourced public people research, verified identification photos where available, personal email drafts, print-ready letters, reply notes, booth briefings and follow-up drafts.",
+    "The client checks research, chooses targets, approves and sends messages, and has conversations. No automatic outreach or guaranteed attendance, meetings, leads, revenue or conversion is promised.",
+    "The process can be adapted to conferences, trade shows, account research and sales-team follow-up. Full event campaigns are scoped and quoted separately; $999 CAD is a general AI implementation starting price, not a whole conference package price."
+   ]
+  },
+  {
+   "id": "stuff",
+   "title": "Stuff I Made: case studies and portfolio",
+   "url": "/stuff.html",
+   "facts": [
+    "The Stuff I Made page lists live work and portfolio concepts, each labelled. Live means the site can be opened today. Concept or prototype means it is not a live site and not a finished client project.",
+    "Live work listed includes Whitetail Films, Next to Kin (nexttokin.ca, kintags.com, kintagpartners.com), Indigo KinTag, Ketchup Sandwich AI tools, Barker’s Barbershop website design, KinCards, The Adventures of Saylor, The Frozen Inn and Sorry, Grapes.",
+    "Portfolio concepts and prototypes include a Bresaylor Heritage Museum redesign idea (unofficial), a Cell Style demo site, Let’s Pucking Go, Homegrain, Distilled Democracy and Marquee Studio.",
+    "Previews on the page are drawn in each site’s own colours. They are not screenshots."
+   ]
+  },
+  {
+   "id": "media-hub",
+   "title": "Media hub case study",
+   "url": "/media-hub.html",
+   "facts": [
+    "Thom built a private production desk for a Regina team producing spoken-word recordings. The client is not named.",
+    "It includes a media library that uploads to a shared Google Drive folder, a catalogue with IDs and stages, a script library, a teleprompter that follows the reader’s words and records takes, a talent portal, a schedule and a roster.",
+    "It went from a one-page pitch on October 21, 2026 to a shared team workspace on November 10, 2026, across 38 deployments.",
+    "Automatic mastering and transcript search are planned and not connected. The vocal suite is in preview. There is no public link to the workspace.",
+    "Thom set requirements and checked results; Claude Code wrote the implementation."
+   ]
+  }
+ ]
 }

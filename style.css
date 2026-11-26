@@ -120,3 +120,50 @@ header{position:sticky;top:0;z-index:60;background:#17201c!important;color:#fff5
 .hub-report .case-to-talk{display:block}
 @media(max-width:900px){.stuff-top,.hub-two{grid-template-columns:1fr;gap:34px}.hub-flow{grid-template-columns:1fr 1fr}.hub-stats-wide{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.hub-stats,.hub-flow{grid-template-columns:1fr}.stuff-grid{grid-template-columns:1fr}.hub-bars p{grid-template-columns:1fr 40px}.hub-bars p span{grid-column:1/-1}}
+
+/* No Fare! case study + press */
+.nf-press{margin:0 0 50px}
+.press-list{list-style:none;margin:14px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.press-list a{display:flex;flex-direction:column;gap:8px;height:100%;padding:16px 18px;background:#15191c;color:#fff5df;text-decoration:none;border:2px solid #15191c;box-shadow:5px 5px 0 #e7f653;transition:transform .15s}
+.press-list a:hover,.press-list a:focus-visible{transform:translate(-2px,-2px)}
+.press-list span{font:10px/1.4 monospace;letter-spacing:1px;color:#e7f653}
+.press-list strong{font-size:17px;line-height:1.3;letter-spacing:-.01em}
+.press-list em{font-style:normal;font-size:13px;font-weight:700;margin-top:auto;color:#e7f653}
+.nf-links{margin:30px 0 6px}
+.nf-links a{color:#e7f653}
+.nf-ui{background:#fff;color:#152030;font-family:Arial,sans-serif}
+.nf-ui-hero{position:relative;background:#1d4ea6;color:#fff;padding:22px 20px 16px;overflow:hidden}
+.nf-ui-hero svg{position:absolute;inset:0;width:100%;height:100%}
+.nf-ui-hero strong{position:relative;display:block;font-size:34px;font-weight:900;letter-spacing:-1.5px;line-height:1}
+.nf-ui-hero strong span{color:#f3c947}
+.nf-ui-hero small{position:relative;display:block;font-size:13px;margin:4px 0 36px}
+.nf-ui-count{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.nf-ui-count p{margin:0;background:#f3c947;color:#152030;border-radius:6px;padding:6px 8px;font-weight:900;font-size:20px;line-height:1}
+.nf-ui-count span{display:block;font-size:8px;letter-spacing:.4px;margin-top:3px}
+.nf-ui-board{padding:6px 16px 10px}
+.nf-ui-board p{margin:0;display:grid;grid-template-columns:50px 1fr auto;gap:10px;align-items:center;padding:9px 0;border-top:1px solid #d9dee6;font-size:13px}
+.nf-ui-board p:first-child{border-top:0}
+.nf-ui-board em{font-style:normal;font-size:9px;font-weight:700;text-align:center;padding:3px 0;border-radius:3px}
+.nf-ui-board em.o{background:#1d4ea6;color:#fff}
+.nf-ui-board em.r{background:#fff5d6;border:1px solid #f3c947}
+.nf-ui-board time{font-weight:700;color:#e4383f}
+/* Homepage: in the news */
+.news-band{background:#15191c;color:#fff5df}
+.news-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:60px;align-items:center}
+.news-grid>*{min-width:0}
+.news-band .eyebrow{color:#e7f653}
+.news-band h2{font-family:Impact,'Arial Narrow',Arial,sans-serif;font-weight:400;font-size:clamp(48px,6.5vw,92px);line-height:.95;text-transform:uppercase;margin:14px 0 22px;color:#e7f653;letter-spacing:0}
+.news-band h2 .outline{-webkit-text-stroke:2px #fff5df}
+.news-band .news-lede{font-size:18px;line-height:1.55;max-width:560px}
+.news-outlets{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 28px;padding:0;list-style:none}
+.news-outlets a{display:inline-block;padding:7px 12px;border:1px solid #fff5df66;color:#fff5df;font-weight:700;font-size:14px;text-decoration:none}
+.news-outlets a:hover,.news-outlets a:focus-visible{background:#e7f653;color:#15191c;border-color:#e7f653}
+.news-stats{display:flex;gap:28px;margin:0 0 28px;flex-wrap:wrap}
+.news-stats b{display:block;font-family:Impact,'Arial Narrow',Arial,sans-serif;font-weight:400;font-size:44px;line-height:1;color:#e7f653}
+.news-stats span{font-size:13px}
+.news-band .stuff-frame{border-color:#fff5df;box-shadow:8px 8px 0 #e7f653;transform:rotate(1.5deg)}
+.news-band figcaption{margin-top:14px}
+@media(max-width:900px){.news-grid{grid-template-columns:1fr;gap:40px}.news-band .stuff-frame{transform:none}}
+@media(max-width:600px){.press-list{grid-template-columns:1fr}.nf-ui-hero strong{font-size:28px}}
+.press-list em,.nf-ui-board em{font-family:Arial,Helvetica,sans-serif}
+.news-band .button{background:#e7f653;color:#15191c;border-color:#e7f653;display:inline-flex;gap:14px;align-items:center;padding:16px 22px;font-weight:700;text-decoration:none}
