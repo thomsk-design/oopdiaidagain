@@ -167,3 +167,8 @@ header{position:sticky;top:0;z-index:60;background:#17201c!important;color:#fff5
 @media(max-width:600px){.press-list{grid-template-columns:1fr}.nf-ui-hero strong{font-size:28px}}
 .press-list em,.nf-ui-board em{font-family:Arial,Helvetica,sans-serif}
 .news-band .button{background:#e7f653;color:#15191c;border-color:#e7f653;display:inline-flex;gap:14px;align-items:center;padding:16px 22px;font-weight:700;text-decoration:none}
+.intro-skip{display:block;margin:14px 0 0;background:transparent;color:#fff5df;border:1px solid #fff5df88;padding:10px 16px;font:700 13px Arial,sans-serif;cursor:pointer}
+.intro-skip:hover,.intro-skip:focus-visible{background:#e7f653;color:#15191c;border-color:#e7f653}
+.intro-skip[hidden]{display:none}
+/* Eyebrow labels removed site-wide */
+.eyebrow,.gate-label,.hero-rule,#less-note,.example-links>a>span,.case-benefits article>span,.hub-flow article>span{display:none!important}
