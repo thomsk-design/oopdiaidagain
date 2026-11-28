@@ -97,6 +97,7 @@
 
 /* Original comic illustrations — scoped to this guide. */
 .kx .cover-art{display:block;max-width:920px;margin:26px auto 10px;border:4px solid var(--k);box-shadow:6px 6px 0 var(--acid);background:#1748c8;overflow:hidden}.kx .cover-art img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain}.kx-illustration{margin:0 0 20px;border:3px solid var(--k);background:#fff5df;break-inside:avoid}.kx-illustration img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain}.kx-illustration figcaption{padding:10px 16px;border-top:2px solid var(--k);font-size:16px;line-height:1.4;font-weight:700}.kx [aria-labelledby="p9"] .kx-illustration img{max-height:360px}.kx .who .spooly-mascot{width:110px;max-width:26%;height:auto;flex:0 0 auto;object-fit:contain;align-self:center}.kx .who svg{width:96px}@media(max-width:600px){.kx .cover-art{margin:20px 0 10px;box-shadow:4px 4px 0 var(--acid)}.kx-illustration figcaption{font-size:14px;padding:9px 11px}.kx .who .spooly-mascot{width:78px}}@media print{.kx .cover-art{box-shadow:none;max-width:650px}.kx .cover-art img{max-height:240px}.kx-illustration img,.kx [aria-labelledby="p9"] .kx-illustration img{max-height:155px}.kx-illustration figcaption{font-size:10pt}.kx .who .spooly-mascot{width:70px}.kx-illustration{margin-bottom:12px}}
+.photo-reference{margin:20px 0}.photo-reference img{display:block;width:100%;height:auto}.parts-intro{font-size:24px;font-weight:700;max-width:650px}.machine-map{margin:20px 0;border:4px solid var(--k);background:#fff;box-shadow:6px 6px 0 var(--k)}.machine-map img{display:block;width:100%;height:auto}.machine-map figcaption{padding:10px 14px;border-top:3px solid var(--k);font-size:16px;font-weight:700;background:#fff8e7}.part-tabs{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 14px}.part-tabs button{cursor:pointer;border:3px solid var(--k);box-shadow:3px 3px 0 var(--k);padding:12px 16px;background:#fff;font:700 19px 'Comic Neue',sans-serif;color:var(--k);min-height:48px}.part-tabs button[aria-pressed=true]{background:#edff50}.part-tabs button:focus-visible{outline:4px solid #283bd5;outline-offset:4px}.part-answer{border:3px solid var(--k);padding:18px;background:#edff50;margin-bottom:24px}.part-answer h3{margin:0 0 8px}.part-answer p{margin:0;font-size:21px}.head-map{max-width:850px;margin-left:auto;margin-right:auto}details summary{cursor:pointer;font-weight:700;padding:10px 0}@media print{.part-tabs,.part-answer{display:none}.machine-map{box-shadow:none;break-inside:avoid}.machine-map img{max-height:330px;object-fit:contain}.head-map img{max-height:230px}}
 </style>
 </head><body>
 <a class="skip" href="#main">Skip to content</a><header><a class="brand" href="/">Oops I AI’d Again<span>FIELD NOTES BY THOM HAMILTON</span></a><nav aria-label="Main"><a href="/">Home</a><a href="stuff.html">Stuff I Made</a><a class="nav-cta" href="https://calendar.app.google/zX1U5LTyb2GVK5Aa7" rel="noopener" target="_blank">Book a call ↗</a></nav></header>
@@ -144,27 +145,16 @@
 <section aria-labelledby="p2" class="page">
 <span class="page-no">PAGE 2</span>
 <div class="page-head"><span class="cap">Chapter 2</span><h2 id="p2">Meet the Kobra X!</h2></div>
-<div class="panels">
-<div class="panel w6 dots">
-<ul class="parts">
-<li><b>Spool holders</b>Up on top. Four rolls of filament sit here, so you can print in up to <strong>4 colours</strong> at once!</li>
-<li><b>Print head</b>The part that zooms around. It has a clever colour-swapper inside (Anycubic calls it ACE Gen 2) that changes colours by itself.</li>
-<li><b>Nozzle</b>The tiny tip where melted plastic comes out. It can get to <strong>300°C</strong>. That’s hotter than an oven. Never touch it!</li>
-<li><b>Build plate</b>The flat, bendy steel sheet where your print grows. It’s held on by magnets and sits on a <strong>heated bed</strong> (up to 100°C).</li>
-<li><b>Screen</b>Shows what the printer is doing and which colour it’s using.</li>
-<li><b>Camera</b>A little camera keeps an eye on your print and can spot when something goes wrong.</li>
-<li><b>Purge wiper</b>A little scrubber the nozzle wipes on to stay clean when it changes colours.</li>
-<li><b>Print space</b>26 × 26 × 26 cm. A basketball would just about fit inside!</li>
-</ul>
+<p class="parts-intro">This is your printer. Let’s learn five names—then peek inside the print head.</p>
+<figure class="machine-map"><img src="assets/kobra-x/real-printer-comic.webp" alt="Comic made from an actual Kobra X image, with arrows identifying the print head, bed, screen, spool holders and frame." width="1570" height="1001" loading="lazy"/><figcaption>Real Kobra X hardware. Comic-book clothes.</figcaption></figure>
+<details class="photo-reference"><summary>See the real printer photo ↗</summary><img src="assets/kobra-x/manufacturer-parts.webp" alt="Original Anycubic Kobra X product image with manufacturer part labels." loading="lazy" width="2548" height="1626"/></details>
+<div class="part-tabs" role="group" aria-label="Explore a printer part">
+<button type="button" data-part="bed" aria-pressed="true">1. Bed</button><button type="button" data-part="head" aria-pressed="false">2. Print head</button><button type="button" data-part="hot" aria-pressed="false">3. Hot end</button><button type="button" data-part="spool" aria-pressed="false">4. Spool holders</button><button type="button" data-part="screen" aria-pressed="false">5. Screen</button>
 </div>
-<div class="panel w3 dots-blue">
-<h3>It levels itself!</h3>
-<p>Before printing, the printer taps the plate in lots of spots to measure how flat it is. That’s called <strong>auto-leveling</strong>. Let it finish. No need to help!</p>
-</div>
-<div class="panel w3">
-<div class="bubble">The printer is also friends with the <strong>Anycubic app</strong> on a grown-up’s phone. You can watch your print through the camera from the couch!</div>
-</div>
-</div>
+<div class="part-answer" aria-live="polite"><h3 id="part-name">Bed = the landing pad</h3><p id="part-copy">Your model grows on the flat build plate. The heated bed sits underneath it. Both can be hot—hands off until a grown-up says it’s cool.</p></div>
+<figure class="machine-map head-map"><img src="assets/kobra-x/real-hotend-comic.webp" alt="Actual Kobra X print head and its separate hot end, illustrated as a comic. A label points to the tiny nozzle at the bottom of the hot end." width="1774" height="887" loading="lazy"/><figcaption>The hot end lives inside the print head. This is a peek inside, not a taking-apart activity.</figcaption></figure>
+<div class="panels"><div class="panel w3 dots"><h3>Your spotting mission</h3><p>Look at the picture. Find the bed. Now find the head. Which one carries the nozzle?</p><details><summary>Show me the answer!</summary><p>The print head carries the hot end and its nozzle. The bed holds your growing model.</p></details></div><div class="panel w3 warn"><h3>Eyes on. Hands out.</h3><p>The head moves. The hot end and bed heat up. Watch from outside the printer, with a grown-up.</p></div></div>
+<p class="small">Photo references: <a href="https://wiki.anycubic.com/en/fdm-3d-printer/anycubic-kobra-x/introduction-to-key-components" target="_blank" rel="noopener">Anycubic’s Kobra X component guide</a>. Illustrations adapted from manufacturer images.</p>
 </section>
 <!-- PAGE 3: Safety -->
 <section aria-labelledby="p3" class="page">
@@ -448,5 +438,5 @@ The nozzle and the bed get VERY hot. Hands stay outside the printer while it’s
 </section>
 </main>
 <footer><a class="brand" href="/">Oops I AI’d Again<span>MY ACCIDENTAL JOURNEY. YOUR PRACTICAL STARTING POINT.</span></a><p>Thom Hamilton · Regina, Saskatchewan</p><a href="#main">Back to the top ↑</a></footer>
-<script>document.getElementById('kx-print').addEventListener('click',function(){window.print()});</script>
+<script>document.getElementById('kx-print').addEventListener('click',function(){window.print()});const partInfo={bed:['Bed = the landing pad','Your model grows on the flat build plate. The heated bed sits underneath it. Both can be hot—hands off until a grown-up says it’s cool.'],head:['Print head = the moving part','This carriage travels across the printer. It carries the hot end. Keep fingers away while it moves.'],hot:['Hot end = the melty part','Inside the head, the hot end melts the plastic. The tiny nozzle at its bottom draws each layer. Look at the close-up below—never touch it.'],spool:['Spool holders = the plastic supply shelf','Rolls of plastic sit up top. The plastic thread is called filament. It travels through the tubes to the head.'],screen:['Screen = the printer’s message board','See progress and messages here. Choose a print with a grown-up. If a warning appears, ask for help.']};document.querySelectorAll('[data-part]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-part]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));const info=partInfo[button.dataset.part];document.getElementById('part-name').textContent=info[0];document.getElementById('part-copy').textContent=info[1]}));</script>
 </body></html>
