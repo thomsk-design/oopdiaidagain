@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>The Kobra X Crew: your first 3D printing adventure — Oops I AI’d Again</title>
 <meta content="A comic-book guide for new 3D printing families: how the Anycubic Kobra X works, what a slicer does, file types, filament types and how to clean the build plate. Made for kids 8 to 11 and their grown-ups." name="description"/>
@@ -10,7 +11,7 @@
 <meta content="A comic-book guide to 3D printing for kids 8 to 11 and their grown-ups." property="og:description"/>
 <meta content="https://www.oopsiaidagain.com/assets/og.png" property="og:image"/>
 <link href="style.css" rel="stylesheet"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Bangers&amp;family=Comic+Neue:wght@400;700&amp;display=swap" rel="stylesheet"/>
 <style>
 .kx{--k:#15191c;background:var(--paper);font-family:'Comic Neue','Comic Sans MS',Arial,sans-serif;font-size:19px;line-height:1.5;color:var(--k);padding:40px max(4%,calc((100vw - 1180px)/2)) 70px}
@@ -93,34 +94,31 @@
 @media(max-width:900px){.panel,.w3,.w4{grid-column:span 6}.glossary{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.kx{font-size:17px;padding:28px 5% 50px}.page{padding:14px;box-shadow:6px 6px 0 var(--k)}.parts{grid-template-columns:1fr}.glossary{grid-template-columns:1fr}.who svg{width:70px}.flow>span{transform:rotate(90deg);width:100%;text-align:center;line-height:.7}.cover-art svg{height:150px}.cover h1{-webkit-text-stroke:2px var(--k);text-shadow:4px 4px 0 var(--k)}}
 @media print{header,footer,.print-row,.colour-strip{display:none!important}.kx{padding:0;font-size:14pt}.page{box-shadow:none;break-inside:avoid;page-break-inside:avoid;margin:0 0 18px}.page.break{break-before:page}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+/* Original comic illustrations — scoped to this guide. */
+.kx .cover-art{display:block;max-width:920px;margin:26px auto 10px;border:4px solid var(--k);box-shadow:6px 6px 0 var(--acid);background:#1748c8;overflow:hidden}.kx .cover-art img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain}.kx-illustration{margin:0 0 20px;border:3px solid var(--k);background:#fff5df;break-inside:avoid}.kx-illustration img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain}.kx-illustration figcaption{padding:10px 16px;border-top:2px solid var(--k);font-size:16px;line-height:1.4;font-weight:700}.kx [aria-labelledby="p9"] .kx-illustration img{max-height:360px}.kx .who .spooly-mascot{width:110px;max-width:26%;height:auto;flex:0 0 auto;object-fit:contain;align-self:center}.kx .who svg{width:96px}@media(max-width:600px){.kx .cover-art{margin:20px 0 10px;box-shadow:4px 4px 0 var(--acid)}.kx-illustration figcaption{font-size:14px;padding:9px 11px}.kx .who .spooly-mascot{width:78px}}@media print{.kx .cover-art{box-shadow:none;max-width:650px}.kx .cover-art img{max-height:240px}.kx-illustration img,.kx [aria-labelledby="p9"] .kx-illustration img{max-height:155px}.kx-illustration figcaption{font-size:10pt}.kx .who .spooly-mascot{width:70px}.kx-illustration{margin-bottom:12px}}
 </style>
 </head><body>
 <a class="skip" href="#main">Skip to content</a><header><a class="brand" href="/">Oops I AI’d Again<span>FIELD NOTES BY THOM HAMILTON</span></a><nav aria-label="Main"><a href="/">Home</a><a href="stuff.html">Stuff I Made</a><a class="nav-cta" href="https://calendar.app.google/zX1U5LTyb2GVK5Aa7" rel="noopener" target="_blank">Book a call ↗</a></nav></header>
-<main id="main" class="kx">
-
-<div class="print-row"><p><strong>For grown-ups:</strong> this comic is for kids roughly 8 to 11 and the adults printing alongside them. Read it together before your first print. Want a paper copy? It prints nicely.</p><button type="button" id="kx-print">Print this comic</button></div>
-
+<main class="kx" id="main">
+<div class="print-row"><p><strong>For grown-ups:</strong> this comic is for kids roughly 8 to 11 and the adults printing alongside them. Read it together before your first print. Want a paper copy? It prints nicely.</p><button id="kx-print" type="button">Print this comic</button></div>
 <!-- COVER -->
-<section class="page cover" aria-labelledby="kx-title">
+<section aria-labelledby="kx-title" class="page cover">
 <p class="presents">ISSUE #1 · A WELCOME-ABOARD COMIC</p>
 <h1 id="kx-title">The Kobra X<span>Crew!</span></h1>
 <p class="sub">Your first 3D printing adventure</p>
-<div class="cover-art" aria-hidden="true">
-<svg viewBox="0 0 220 230" xmlns="http://www.w3.org/2000/svg"><g stroke="#15191c" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"><rect x="20" y="20" width="180" height="190" rx="10" fill="#fff5df"/><rect x="20" y="20" width="180" height="30" fill="#e63c24"/><rect x="40" y="160" width="140" height="18" fill="#15191c"/><rect x="88" y="50" width="44" height="46" rx="6" fill="#e5f45b"/><path d="M110 96v16" /><path d="M100 112h20l-10 14z" fill="#15191c"/><path d="M85 160c0-20 50-20 50 0" fill="#243fd1"/><circle cx="100" cy="68" r="5" fill="#15191c" stroke-width="0"/><circle cx="121" cy="68" r="5" fill="#15191c" stroke-width="0"/><path d="M101 82q9 7 19 0" fill="none"/><path d="M8 120l-6-10M212 120l6-10" /></g></svg>
-<svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg"><g stroke="#15191c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="80" cy="95" rx="62" ry="72" fill="#e63c24"/><ellipse cx="80" cy="95" rx="40" ry="48" fill="#e5f45b"/><ellipse cx="80" cy="95" rx="12" ry="14" fill="#15191c"/><circle cx="62" cy="78" r="9" fill="#fff"/><circle cx="98" cy="78" r="9" fill="#fff"/><circle cx="64" cy="79" r="4" fill="#15191c" stroke-width="0"/><circle cx="100" cy="79" r="4" fill="#15191c" stroke-width="0"/><path d="M64 120q16 12 32 0" fill="none"/><path d="M140 80q20-30 10-60" fill="none" stroke="#e63c24" stroke-width="8"/><path d="M140 80q20-30 10-60" fill="none" stroke-width="2"/><path d="M50 165l-8 26M110 165l8 26" /></g></svg>
-</div>
+<div aria-hidden="true" class="cover-art"><img alt="Spooly, a cheerful red filament reel, celebrating a yellow articulated dragon keychain and colourful printed shapes." fetchpriority="high" height="1024" src="assets/kobra-x/spooly-adventure.webp" width="1536"/></div>
 <div class="issue"><span>FOR AGES 8–11 (+ GROWN-UPS)</span><span>ANYCUBIC KOBRA X</span><span>NO EXPERIENCE NEEDED</span></div>
 </section>
-
 <!-- PAGE 1: meet Spooly / what is 3D printing -->
-<section class="page" aria-labelledby="p1">
+<section aria-labelledby="p1" class="page">
 <span class="page-no">PAGE 1</span>
-<div class="page-head"><span class="cap">Chapter 1</span><h2 id="p1">What even IS 3D printing?</h2></div>
+<div class="page-head"><span class="cap">Chapter 1</span><h2 id="p1">What even IS 3D printing?</h2></div><figure class="kx-illustration"><img alt="A cartoon dragon shown whole, separated into horizontal slices, then built from those slices on a print surface." decoding="async" height="1024" loading="lazy" src="assets/kobra-x/dragon-layers.webp" width="1536"/><figcaption>One shape. Lots of thin layers. The drawing exaggerates their thickness so you can see how they stack.</figcaption></figure>
 <div class="panels">
 <div class="panel w4 dots">
 <span class="cap-box">Meanwhile, in your house…</span>
 <div class="who">
-<svg viewBox="0 0 160 200" aria-hidden="true"><g stroke="#15191c" stroke-width="6" stroke-linecap="round"><ellipse cx="80" cy="95" rx="62" ry="72" fill="#e63c24"/><ellipse cx="80" cy="95" rx="40" ry="48" fill="#fff5df"/><ellipse cx="80" cy="95" rx="12" ry="14" fill="#15191c"/><circle cx="62" cy="78" r="9" fill="#fff"/><circle cx="98" cy="78" r="9" fill="#fff"/><circle cx="64" cy="79" r="4" fill="#15191c" stroke-width="0"/><circle cx="100" cy="79" r="4" fill="#15191c" stroke-width="0"/><path d="M64 120q16 12 32 0" fill="none"/></g></svg>
+<img alt="Spooly giving an encouraging thumbs-up." class="spooly-mascot" height="1351" loading="lazy" src="assets/kobra-x/spooly-mascot.webp" width="1164"/>
 <div><div class="bubble">Hi! I’m <strong>Spooly</strong>, a roll of plastic string called <strong>filament</strong>. I’m going to be your guide!</div>
 <p>Your new printer takes Spooly’s plastic string, <strong>melts it</strong>, and squeezes it out of a tiny hot tip called the <strong>nozzle</strong>. It’s a bit like a robot with a very careful hot glue gun.</p></div>
 </div>
@@ -142,9 +140,8 @@
 </div>
 </div>
 </section>
-
 <!-- PAGE 2: Meet the printer -->
-<section class="page" aria-labelledby="p2">
+<section aria-labelledby="p2" class="page">
 <span class="page-no">PAGE 2</span>
 <div class="page-head"><span class="cap">Chapter 2</span><h2 id="p2">Meet the Kobra X!</h2></div>
 <div class="panels">
@@ -169,9 +166,8 @@
 </div>
 </div>
 </section>
-
 <!-- PAGE 3: Safety -->
-<section class="page" aria-labelledby="p3">
+<section aria-labelledby="p3" class="page">
 <span class="page-no">PAGE 3</span>
 <div class="page-head"><span class="cap">Chapter 3</span><h2 id="p3">The Maker’s Safety Code</h2></div>
 <div class="panels">
@@ -201,9 +197,8 @@ The nozzle and the bed get VERY hot. Hands stay outside the printer while it’s
 </div>
 </div>
 </section>
-
 <!-- PAGE 4: The journey -->
-<section class="page break" aria-labelledby="p4">
+<section aria-labelledby="p4" class="page break">
 <span class="page-no">PAGE 4</span>
 <div class="page-head"><span class="cap">Chapter 4</span><h2 id="p4">From idea to real thing</h2></div>
 <div class="panels">
@@ -227,9 +222,8 @@ The nozzle and the bed get VERY hot. Hands stay outside the printer while it’s
 </div>
 </div>
 </section>
-
 <!-- PAGE 5: The slicer -->
-<section class="page" aria-labelledby="p5">
+<section aria-labelledby="p5" class="page">
 <span class="page-no">PAGE 5</span>
 <div class="page-head"><span class="cap">Chapter 5</span><h2 id="p5">The slicer: the printer’s brain helper</h2></div>
 <div class="panels">
@@ -266,9 +260,8 @@ The nozzle and the bed get VERY hot. Hands stay outside the printer while it’s
 </div>
 </div>
 </section>
-
 <!-- PAGE 6: File types -->
-<section class="page break" aria-labelledby="p6">
+<section aria-labelledby="p6" class="page break">
 <span class="page-no">PAGE 6</span>
 <div class="page-head"><span class="cap">Chapter 6</span><h2 id="p6">Know your file types!</h2></div>
 <div class="panels">
@@ -289,40 +282,38 @@ The nozzle and the bed get VERY hot. Hands stay outside the printer while it’s
 <p class="small">Made BY the slicer, sent TO the printer.</p></div>
 </div>
 </section>
-
 <!-- PAGE 7: Filament -->
-<section class="page" aria-labelledby="p7">
+<section aria-labelledby="p7" class="page">
 <span class="page-no">PAGE 7</span>
 <div class="page-head"><span class="cap">Chapter 7</span><h2 id="p7">Spooly’s family: types of filament</h2></div>
 <div class="panels">
 <div class="panel w3 dots">
 <div class="fil-name">PLA</div><p><strong>The beginner’s best friend!</strong> Easy to print, barely smells, and comes in tons of colours: sparkly silk, matte, even glow-in-the-dark.</p>
-<dl class="stat"><dt>Easy?</dt><dd><span class="meter" aria-label="5 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></dd><dt>Tough?</dt><dd><span class="meter" aria-label="2 out of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></dd></dl>
+<dl class="stat"><dt>Easy?</dt><dd><span aria-label="5 out of 5" class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></dd><dt>Tough?</dt><dd><span aria-label="2 out of 5" class="meter"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></dd></dl>
 <p class="small">Watch out: it gets soft in a hot car.</p></div>
 <div class="panel w3">
 <div class="fil-name">PETG</div><p><strong>The tough one.</strong> Stronger and a bit bendier than PLA, and handles heat better. It’s related to the plastic in water bottles.</p>
-<dl class="stat"><dt>Easy?</dt><dd><span class="meter" aria-label="4 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></dd><dt>Tough?</dt><dd><span class="meter" aria-label="4 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></dd></dl>
+<dl class="stat"><dt>Easy?</dt><dd><span aria-label="4 out of 5" class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></dd><dt>Tough?</dt><dd><span aria-label="4 out of 5" class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></dd></dl>
 <p class="small">Can leave little “hairs” (strings) on prints.</p></div>
 <div class="panel w3 dots-blue">
 <div class="fil-name">TPU</div><p><strong>The bendy, squishy one!</strong> Rubbery like a phone case or a bouncy ball. Great for squeeze toys and bumpers.</p>
-<dl class="stat"><dt>Easy?</dt><dd><span class="meter" aria-label="3 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></dd><dt>Tough?</dt><dd><span class="meter" aria-label="4 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></dd></dl>
+<dl class="stat"><dt>Easy?</dt><dd><span aria-label="3 out of 5" class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></dd><dt>Tough?</dt><dd><span aria-label="4 out of 5" class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></dd></dl>
 <p class="small">Prints slowly. Pick the TPU setting in the slicer.</p></div>
 <div class="panel w3 cream">
 <div class="fil-name">ABS</div><p><strong>The grown-ups-only one.</strong> Very strong and heat-proof, but it needs high heat and gives off smelly fumes.</p>
-<dl class="stat"><dt>Easy?</dt><dd><span class="meter" aria-label="1 out of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span></dd><dt>Tough?</dt><dd><span class="meter" aria-label="5 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></dd></dl>
+<dl class="stat"><dt>Easy?</dt><dd><span aria-label="1 out of 5" class="meter"><i class="on"></i><i></i><i></i><i></i><i></i></span></dd><dt>Tough?</dt><dd><span aria-label="5 out of 5" class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></dd></dl>
 <p class="small">Skip it for now. Stick with PLA and PETG.</p></div>
 <div class="panel w6 dots-red">
 <div class="who">
-<svg viewBox="0 0 160 200" aria-hidden="true"><g stroke="#15191c" stroke-width="6" stroke-linecap="round"><ellipse cx="80" cy="95" rx="62" ry="72" fill="#e5f45b"/><ellipse cx="80" cy="95" rx="40" ry="48" fill="#fff5df"/><ellipse cx="80" cy="95" rx="12" ry="14" fill="#15191c"/><circle cx="62" cy="78" r="9" fill="#fff"/><circle cx="98" cy="78" r="9" fill="#fff"/><circle cx="64" cy="79" r="4" fill="#15191c" stroke-width="0"/><circle cx="100" cy="79" r="4" fill="#15191c" stroke-width="0"/><path d="M66 124q14-10 28 0" fill="none"/></g></svg>
+<img alt="Spooly giving an encouraging thumbs-up." class="spooly-mascot" height="1351" loading="lazy" src="assets/kobra-x/spooly-mascot.webp" width="1164"/>
 <div><h3>Spooly’s secret: keep me DRY!</h3>
 <p>Filament soaks up water from the air, like a sponge. Wet filament makes popping sounds and stringy, bumpy prints. When you’re done, put spools back in a <strong>sealed bag</strong> with the little drying packet. Your Kobra X uses filament that’s <strong>1.75 mm</strong> thick, the most common size, so it’s easy to find in stores.</p></div>
 </div>
 </div>
 </div>
 </section>
-
 <!-- PAGE 8: Cleaning the plate -->
-<section class="page break" aria-labelledby="p8">
+<section aria-labelledby="p8" class="page break">
 <span class="page-no">PAGE 8</span>
 <div class="page-head"><span class="cap">Chapter 8</span><h2 id="p8">Operation: Squeaky-Clean Plate</h2></div>
 <div class="panels">
@@ -362,11 +353,10 @@ The nozzle and the bed get VERY hot. Hands stay outside the printer while it’s
 </div>
 </div>
 </section>
-
 <!-- PAGE 9: Troubleshooting -->
-<section class="page" aria-labelledby="p9">
+<section aria-labelledby="p9" class="page">
 <span class="page-no">PAGE 9</span>
-<div class="page-head"><span class="cap">Chapter 9</span><h2 id="p9">Villains of the print bed!</h2></div>
+<div class="page-head"><span class="cap">Chapter 9</span><h2 id="p9">Villains of the print bed!</h2></div><figure class="kx-illustration"><img alt="Five friendly print-problem characters, left to right: tangled spaghetti filament, wispy strings, a drooping bridge, a curled-up corner and an error-screen gremlin." decoding="async" height="1024" loading="lazy" src="assets/kobra-x/print-villains.webp" width="1536"/><figcaption>Meet the troublemakers: Spaghetti Monster, Hairy Stringer, Droopy Dropper, Peely Corner and Error Code Gremlin.</figcaption></figure>
 <div class="panels">
 <div class="panel dots-red">
 <h3>The Spaghetti Monster</h3>
@@ -398,9 +388,8 @@ The nozzle and the bed get VERY hot. Hands stay outside the printer while it’s
 </div>
 </div>
 </section>
-
 <!-- PAGE 10: Glossary + first missions -->
-<section class="page break" aria-labelledby="p10">
+<section aria-labelledby="p10" class="page break">
 <span class="page-no">PAGE 10</span>
 <div class="page-head"><span class="cap">Chapter 10</span><h2 id="p10">Maker words + your first missions</h2></div>
 <div class="panels">
@@ -434,8 +423,7 @@ The nozzle and the bed get VERY hot. Hands stay outside the printer while it’s
 </div>
 </div>
 </section>
-
-<section class="page grownups cream" aria-labelledby="pg">
+<section aria-labelledby="pg" class="page grownups cream">
 <span class="page-no">FOR GROWN-UPS</span>
 <h2 id="pg" style="font-size:38px">The quick facts</h2>
 <div class="panels">
@@ -458,7 +446,6 @@ The nozzle and the bed get VERY hot. Hands stay outside the printer while it’s
 </div>
 <p class="small" style="margin-top:14px">Made by Thom Hamilton to welcome a new family to 3D printing. Have fun, and enjoy the do-overs. Every maker has them.</p>
 </section>
-
 </main>
 <footer><a class="brand" href="/">Oops I AI’d Again<span>MY ACCIDENTAL JOURNEY. YOUR PRACTICAL STARTING POINT.</span></a><p>Thom Hamilton · Regina, Saskatchewan</p><a href="#main">Back to the top ↑</a></footer>
 <script>document.getElementById('kx-print').addEventListener('click',function(){window.print()});</script>
